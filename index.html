@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="MR.ART&CRAFT - Freelance Graphic Designer specializing in logo design and brand identity.">
+
+  <title>MR.ART&CRAFT | Creative Designer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="header">
+    <nav class="navbar container">
+
+      <a href="#home" class="logo">
+        MR.ART&CRAFT<span>.</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="nav-button">Let's Talk</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero container" id="home">
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          AVAILABLE FOR SELECT PROJECTS
+        </p>
+
+        <h1>
+          Design That Makes Your Brand
+          <span>Unforgettable.</span>
+        </h1>
+
+        <p class="hero-description">
+          I create meaningful visual identities,
+          creative logos and modern designs that
+          help brands stand out.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#portfolio" class="btn btn-primary">
+            Explore My Work →
+          </a>
+
+          <a href="#contact" class="btn btn-outline">
+            Let's Work Together
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <h3>Creative</h3>
+            <p>Design Thinking</p>
+          </div>
+
+          <div>
+            <h3>Modern</h3>
+            <p>Visual Identity</p>
+          </div>
+
+          <div>
+            <h3>Unique</h3>
+            <p>Brand Concepts</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="hero-visual">
+        <div class="visual-card">
+          <div class="visual-circle"></div>
+          <div class="visual-line"></div>
+          <div class="visual-square"></div>
+
+          <p>CREATIVITY / 001</p>
+          <h2>ART<br>MEETS<br>IDENTITY.</h2>
+
+          <span class="visual-bottom">
+            THINK DIFFERENTLY.
+          </span>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section container" id="about">
+
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+
+      <div class="about-content">
+
+        <div class="about-mark">
+          <span>A.</span>
+        </div>
+
+        <div class="about-text">
+          <h3>
+            Hello! I'm a creative graphic designer.
+          </h3>
+
+          <p>
+            I enjoy transforming ideas into
+            meaningful visual experiences.
+            My focus is on creating clean,
+            memorable and thoughtful designs
+            that communicate a brand's identity.
+          </p>
+
+          <p>
+            From logo design to complete brand
+            identity, I believe every design
+            should have a purpose and a story.
+          </p>
+
+          <a href="#contact" class="text-link">
+            Let's create something amazing →
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="section section-dark" id="services">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I DO</p>
+          <h2>My <span>Services</span></h2>
+          <p class="section-subtitle">
+            Creative solutions for growing brands.
+          </p>
+        </div>
+
+        <div class="service-grid">
+
+          <article class="service-card">
+            <span class="service-icon">✳</span>
+            <h3>Logo Design</h3>
+            <p>
+              Unique and memorable logos
+              that represent your brand.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">◈</span>
+            <h3>Brand Identity</h3>
+            <p>
+              Consistent visual systems
+              for a professional brand.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">▧</span>
+            <h3>Social Media Design</h3>
+            <p>
+              Attractive graphics for
+              digital platforms.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">✎</span>
+            <h3>Poster Design</h3>
+            <p>
+              Eye-catching posters and
+              promotional designs.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PORTFOLIO -->
+    <section class="section container" id="portfolio">
+
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED CREATIONS</p>
+        <h2>My <span>Portfolio</span></h2>
+        <p class="section-subtitle">
+          A collection of creative design concepts.
+        </p>
+      </div>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="logo">Logo</button>
+        <button class="filter-btn" data-filter="brand">Branding</button>
+        <button class="filter-btn" data-filter="social">Social Media</button>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <article class="project-card" data-category="logo">
+          <div class="project-image project-one">
+            <span>01</span>
+            <h3>NOVA<br>STUDIO</h3>
+          </div>
+          <div class="project-info">
+            <h3>Nova Logo Concept</h3>
+            <p>Logo Design · Concept Project</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="brand">
+          <div class="project-image project-two">
+            <span>02</span>
+            <h3>MONO<br>BRAND</h3>
+          </div>
+          <div class="project-info">
+            <h3>Mono Brand Identity</h3>
+            <p>Branding · Concept Project</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="social">
+          <div class="project-image project-three">
+            <span>03</span>
+            <h3>CREATE<br>MORE.</h3>
+          </div>
+          <div class="project-info">
+            <h3>Creative Social Post</h3>
+            <p>Social Media · Concept Project</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="logo">
+          <div class="project-image project-four">
+            <span>04</span>
+            <h3>VOLT<br>ENERGY</h3>
+          </div>
+          <div class="project-info">
+            <h3>Volt Logo Concept</h3>
+            <p>Logo Design · Concept Project</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="brand">
+          <div class="project-image project-five">
+            <span>05</span>
+            <h3>FORM<br>STUDIO</h3>
+          </div>
+          <div class="project-info">
+            <h3>Form Brand Concept</h3>
+            <p>Branding · Concept Project</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="social">
+          <div class="project-image project-six">
+            <span>06</span>
+            <h3>MAKE IT<br>MATTER.</h3>
+          </div>
+          <div class="project-info">
+            <h3>Social Media Campaign</h3>
+            <p>Social Media · Concept Project</p>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROCESS -->
+    <section class="section section-dark">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">HOW I WORK</p>
+          <h2>My Creative <span>Process</span></h2>
+        </div>
+
+        <div class="process-grid">
+
+          <div class="process-item">
+            <span>01</span>
+            <h3>Discover</h3>
+            <p>Understanding your ideas and goals.</p>
+          </div>
+
+          <div class="process-item">
+            <span>02</span>
+            <h3>Concept</h3>
+            <p>Exploring creative directions.</p>
+          </div>
+
+          <div class="process-item">
+            <span>03</span>
+            <h3>Design</h3>
+            <p>Creating and refining the design.</p>
+          </div>
+
+          <div class="process-item">
+            <span>04</span>
+            <h3>Deliver</h3>
+            <p>Preparing the final design files.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section container" id="contact">
+
+      <div class="contact-box">
+
+        <p class="eyebrow">LET'S CONNECT</p>
+
+        <h2>
+          Have a Project<br>
+          <span>in Mind?</span>
+        </h2>
+
+        <p>
+          Let's turn your ideas into
+          something meaningful.
+        </p>
+
+        <a href="mailto:mr.artandcraft@gmail.com"
+           class="btn btn-primary">
+          Contact Me →
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+
+      <a href="#home" class="logo">
+        MR.ART&CRAFT<span>.</span>
+      </a>
+
+      <p>
+        © <span id="year"></span> MR.ARTCRAFT.
+        All rights reserved.
+      </p>
+
+      <a href="#home" class="text-link">
+        Back to top ↑
+      </a>
+
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
